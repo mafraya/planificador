@@ -12,6 +12,3 @@ app.register_blueprint(session_bp, url_prefix="/api/sessions")
 
 with app.app_context():
     init_db()
-
-if __name__ == "__main__":
-    app.run(debug=True)
